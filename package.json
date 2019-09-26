@@ -1,0 +1,22 @@
+{
+  "name": "webhookscicd",
+  "version": "1.0.0",
+  "description": "Testing WebHooks for CI and CD pipelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnaresh/WebHooksCICD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnaresh/WebHooksCICD/issues"
+  },
+  "homepage": "https://github.com/rnaresh/WebHooksCICD#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
