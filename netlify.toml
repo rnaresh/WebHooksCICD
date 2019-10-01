@@ -2,7 +2,7 @@
 [build]
   base    = "website"
   command = "npm run build"
-  publish = "website/build"
+  publish = "build"
 
 
 # Deploy Preview context: All deploys generated from a pull/merge request
