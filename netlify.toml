@@ -1,0 +1,11 @@
+# https://www.netlify.com/docs/continuous-deployment/
+[build]
+  base    = "website"
+  command = "npm build"
+  publish = "website/build"
+
+
+# Deploy Preview context: All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview.environment]
+
